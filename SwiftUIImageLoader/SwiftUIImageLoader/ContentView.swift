@@ -7,6 +7,13 @@
 //
 
 import SwiftUI
+import SwiftUIRemoteImage
+
+struct ImageItem: Identifiable {
+    var id = UUID()
+    var title: String
+    var url: String
+}
 
 struct ContentView: View {
     
